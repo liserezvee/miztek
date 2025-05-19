@@ -24,8 +24,10 @@ const ContactForm = () => {
       )
       .then(
         () => {
-          
           setSuccessMessage('Message sent successfully!')
+          setTimeout(() => {
+            setSuccessMessage('')
+          }, 3000)
           formRef.current?.reset()
         },
         () => {
