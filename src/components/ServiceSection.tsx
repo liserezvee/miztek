@@ -1,5 +1,5 @@
 "use client"
-import { FC } from 'react'
+import { type FC } from 'react'
 import ServiceCard from './ServiceCard'
 import Lottie from 'lottie-react'
 

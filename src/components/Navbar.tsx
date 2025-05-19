@@ -45,11 +45,11 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden px-4 pb-4">
           <ul className="space-y-4 text-black font-bold">
-            <li><Link href="#services">Services</Link></li>
-            <li><Link href="#devservices">Our Dev Services</Link></li>
-            <li><Link href="#work">Our Work</Link></li>
-            <li><Link href="#team">Team</Link></li>
-            <li><Link href="#contact">Contact</Link></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#devservices">Our Dev Services</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       )}
