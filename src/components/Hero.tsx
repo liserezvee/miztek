@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="bg-[#F2E3DB] py-16 md:py-24">
+    <section className="h-screen py-16 md:py-24 flex justify-center items-center  bg-[url('/src/assets/gradientBackground.png')]
+       bg-no-repeat bg-cover bg-center h-screen">
       <motion.div
         className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8"
         initial={{ opacity: 0, y: 40 }}

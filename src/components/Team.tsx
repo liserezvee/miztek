@@ -5,7 +5,7 @@ import teamAnimation from '../assets/team.json';
 
 const Team = () => {
   return (
-    <section id="team" className="py-20 bg-[#F2E3DB] ">
+    <section id="team" className="py-20 bg-white ">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
           className="text-3xl font-bold text-center text-gray-900 mb-10"

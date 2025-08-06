@@ -40,7 +40,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div id="contact" className="py-16 sm:py-20 bg-gray-50">
+    <div id="contact" className="py-16 sm:py-20">
     <div className="text-center px-4">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Get In Touch!</h2>
       <p className="text-base sm:text-lg md:text-xl text-gray-900 mt-4 mb-6">
@@ -91,7 +91,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={isLoading}
-          className={`w-full flex justify-center py-3 px-4 cursor-pointer border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#F2E3DB] hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black ${
+          className={`w-full flex justify-center py-3 px-4 cursor-pointer border border-transparent rounded-md shadow-sm text-sm font-medium text-white 	bg-green-50	hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black ${
             isLoading ? 'opacity-70 cursor-not-allowed' : ''
           }`}
         >

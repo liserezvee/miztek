@@ -14,14 +14,15 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Services />
+
       <ServicesSection />
       <OurWork />
+      <Services />
       <Team />
       <Contact />
-      <footer className="bg-[#F2E3DB]   text-white py-8">
+      <footer className="	bg-green-50	  text-white py-8">
         <div className="container mx-auto px-4 text-center text-black font-extrabold">
-          <p>© {new Date().getFullYear()} Miztek. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Olinko. All rights reserved.</p>
         </div>
       </footer>
     </div>

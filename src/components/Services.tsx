@@ -18,7 +18,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-20">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
           className="text-3xl font-bold text-center text-gray-900"
